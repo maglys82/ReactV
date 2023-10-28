@@ -15,7 +15,7 @@ function Navegador() {
                     <FontAwesomeIcon icon={faHome} size="md" style={{ color: 'white' }} />
 
                     <Link
-                        to="/home"
+                        to="/"
                         className="text-white ms-3 text-decoration-none"
                     >
                         Home
@@ -30,7 +30,6 @@ function Navegador() {
                             Contacto
                         </Link>
                     </Container>
-
 
                     <Link
                         to="/"
