@@ -4,6 +4,7 @@ import Navegador from './Navbar'
 import { Route, Routes } from "react-router-dom";
 import HomePage from './HomePage'
 import Contacto from './Contacto'
+import NotFound from './NotFound';
 
 function App(){
   return (
@@ -18,7 +19,10 @@ function App(){
           path="/Contacto"
           element={< Contacto/>}
         />
-       
+       <Route
+          path="*"
+          element={<NotFound />}
+        />
       </Routes>
     </div>
   );

@@ -31,12 +31,12 @@ function Navegador() {
                         </Link>
                     </Container>
 
-                    <Link
-                        to="/"
+                    <div
+            
                         className="text-white ms-auto text-decoration-none"
                     >
                     Happy Cake
-                    </Link>
+                    </div>
                     <FontAwesomeIcon icon={faCake} size="md" style={{ color: 'gold' }} />
                 </Container>
             </Navbar>
